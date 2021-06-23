@@ -1,0 +1,308 @@
+﻿  2D_Conv.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+  ConstROM.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(4,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(5,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(6,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(7,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(8,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(9,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(10,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(11,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(12,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(13,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(14,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(15,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(16,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(17,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(18,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(19,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(20,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(21,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(22,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(23,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(24,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(25,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(26,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(27,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(28,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(29,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(30,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(31,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(32,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(33,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(34,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(35,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(36,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(37,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(38,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(39,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(40,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(41,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(42,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(43,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(44,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(45,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(46,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(47,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(48,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(49,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(50,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(51,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(52,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(53,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(54,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(55,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(56,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(57,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(58,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(59,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(60,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(61,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(62,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(63,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(64,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(65,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(66,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\ConstROM.cpp(67,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+  Global_F.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+  Math_F.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(355,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(355,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(356,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(356,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(357,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(357,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(358,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(358,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(359,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(359,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(360,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(360,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(361,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(361,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(362,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(362,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(363,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(363,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(364,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(364,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(365,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(365,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(366,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(366,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(367,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(367,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(368,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(368,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(369,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(369,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(370,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(370,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(371,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(371,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(372,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(372,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(373,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(373,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(374,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(374,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(375,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(375,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(376,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(376,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(377,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(377,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(378,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(378,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(379,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(379,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(380,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(380,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(381,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(381,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(382,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(382,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(383,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(383,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(384,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(384,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(385,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(385,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(386,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(386,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(387,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(387,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(388,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(388,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(389,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(389,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(390,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(390,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(391,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(391,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(392,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(392,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(393,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(393,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(394,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(394,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(395,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(395,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(396,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(396,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(397,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(397,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(398,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(398,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(399,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(399,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(400,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(400,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(401,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(401,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(402,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(402,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(403,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(403,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(404,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(404,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(405,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(405,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(406,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(406,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(407,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(407,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(408,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(408,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(409,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(409,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(410,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(410,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(411,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(411,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(412,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(412,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(413,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(413,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(414,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(414,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(415,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(415,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(416,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(416,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(417,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(417,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(418,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(418,12): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(475,16): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(476,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(477,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(478,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(479,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(480,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(481,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(482,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(483,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(484,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(485,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(486,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(487,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(488,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(489,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(490,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(491,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(492,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(493,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(494,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(495,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(496,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(497,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(498,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(499,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(500,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(501,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(502,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(503,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(504,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(505,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(506,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(507,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(508,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(509,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(510,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(511,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(512,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(513,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(514,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(515,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(516,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(517,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(518,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\Math_F.cpp(519,1): warning C4838: 从“unsigned int”转换到“int”需要收缩转换
+  SOC_Common_F.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+  debug.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+  fir.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\fir.cpp(450,1): warning C4005: “DelayCache0”: 宏重定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\fir.cpp(412): message : 参见“DelayCache0”的前一个定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\fir.cpp(451,1): warning C4005: “DelayCache1”: 宏重定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\fir.cpp(413): message : 参见“DelayCache1”的前一个定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\fir.cpp(484,1): warning C4005: “DelayCache0”: 宏重定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\fir.cpp(450): message : 参见“DelayCache0”的前一个定义
+  iir.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(126,1): warning C4005: “b12”: 宏重定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(21): message : 参见“b12”的前一个定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(127,1): warning C4005: “b13”: 宏重定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(22): message : 参见“b13”的前一个定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(128,1): warning C4005: “b14”: 宏重定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(23): message : 参见“b14”的前一个定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(130,1): warning C4005: “a12”: 宏重定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(25): message : 参见“a12”的前一个定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(131,1): warning C4005: “a13”: 宏重定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(26): message : 参见“a13”的前一个定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(132,1): warning C4005: “a14”: 宏重定义
+E:\work2020\HA_Sim\HA_Sim-master\lib\src\iir.cpp(27): message : 参见“a14”的前一个定义
+  mac.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+  test.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+  version.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+  WDRC_F.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+  main.cpp
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\type.h(90,2): warning C4091: “typedef ”: 没有声明变量时忽略“oper_status”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(12,2): warning C4091: “typedef ”: 没有声明变量时忽略“verNum”的左侧
+E:\work2020\HA_Sim\HA_Sim-master\lib\include\version.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“YMD”的左侧
+  正在生成代码...
+  simulator.vcxproj -> E:\work2020\HA_Sim\HA_Sim-master\Debug\simulator.exe
