@@ -12,6 +12,7 @@
 #define Logistic Logistic()
 #define Tanh Tanh()
 #define Mac_48_1024 Mac_48_1024()
+#define Mac_48_16k Mac_48_16k()
 #define Rolling_Multi Rolling_Multi()
 
 
@@ -27,4 +28,5 @@ extern Sub_AutoField Softmax;
 extern Sub_AutoField Logistic;
 extern Sub_AutoField Tanh;
 extern Sub_AutoField Mac_48_1024;
+extern Sub_AutoField Mac_48_16k;
 extern Sub_AutoField Rolling_Multi;

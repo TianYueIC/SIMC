@@ -115,3 +115,30 @@ Sub_AutoField FindMaxIndex
 	Return_AutoField(0);
 
 }
+////////////////////////////////////////////////////////
+//  名称:
+//      MeanSquareAverage
+//  功能:
+//      求序列的均方（STA1），均值分母为32
+//  参数:
+//      1.RD0:数据地址
+//      2.RD1:数据长度
+//  返回值:
+//      1.RD0:均方值
+////////////////////////////////////////////////////////
+Sub_AutoField MeanSquareAverage
+{
+	RA0 = RD0;
+	int len = RD1.m_data;
+	long sum = 0;
+	for (int i = 0; i < len; i++)
+	{
+		RD0 = GET_M(RA0 + i * MMU_BASE);
+		RD1 = RD0 >> 16;
+		sum = RD1.m_data * RD1.m_data + sum;
+		RD1 = *(short*)(&RD0.m_data);
+		sum = RD1.m_data * RD1.m_data + sum;
+	}
+	RD0 = ((sum >> 8) << 3);
+	Return_AutoField(0);
+}

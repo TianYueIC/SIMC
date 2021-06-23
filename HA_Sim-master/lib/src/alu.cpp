@@ -164,13 +164,13 @@ Sub_AutoField Cal_Single_Shift
 		a = 2;
 	else if (RD0 == 0b10010111)
 		a = 1;
-	else if (RD0 == 0b00011000)
+	else if (RD0 == 0b10011000)
 		a = 18;
-	else if (RD0 == 0b00011001)
+	else if (RD0 == 0b10011001)
 		a = 14;
-	else if (RD0 == 0b00011010)
+	else if (RD0 == 0b10011010)
 		a = 12;
-	else if (RD0 == 0b00011011)
+	else if (RD0 == 0b10011011)
 		a = 11;
 	else
 		a = 0;

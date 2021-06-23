@@ -50,6 +50,8 @@
 #define AX_Sub_BY AX_Sub_BY()
 #define CompareMin_Float_Dual CompareMin_Float_Dual()
 #define CompareMax_Float_Dual CompareMax_Float_Dual()
+#define CompareMax_Float_Const CompareMax_Float_Const()
+#define CompareMin_Float_Const CompareMin_Float_Const()
 
 
 
@@ -148,3 +150,8 @@ extern Sub_AutoField AX_Sub_BY;
 extern Sub_AutoField CompareMin_Float_Dual;
 
 extern Sub_AutoField CompareMax_Float_Dual;
+
+extern Sub_AutoField CompareMax_Float_Const;
+
+extern Sub_AutoField CompareMin_Float_Const;
+

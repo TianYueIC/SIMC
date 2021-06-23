@@ -412,8 +412,8 @@ Sub_AutoField Tanh
 //  功能:
 //      1024长度的48位乘累加器
 //  参数:
-//      1.M[RSP+2*MMU_BASE]：输入地址0，低16bit有效
-//      2.M[RSP+1*MMU_BASE]：输入地址1，低16bit有效
+//      1.M[RSP+2*MMU_BASE]：输入序列0指针，低16bit有效格式
+//      2.M[RSP+1*MMU_BASE]：输入序列1指针，低16bit有效格式
 //      3.RD0：输出结果的低32位
 //		4.RD1：输出结果的高16位,低16位有效
 //  返回值:
@@ -509,7 +509,43 @@ Sub_AutoField Rolling_Multi
 
 	}
 	Return_AutoField(3 * MMU_BASE);
+}
 
 
+////////////////////////////////////////////////////////
+//  名称:
+//      Mac_48_16k
+//  功能:
+//      16k长度的48位乘累加器
+//  参数:
+//      1.M[RSP+2*MMU_BASE]：输入序列0指针，低16bit有效格式
+//      2.M[RSP+1*MMU_BASE]：输入序列1指针，低16bit有效格式
+//      3.RD0：输出结果的低32位
+//		4.RD1：输出结果的高16位,低16位有效
+//  返回值:
+//      无
+////////////////////////////////////////////////////////
+Sub_AutoField Mac_48_16k
+{
+	RA0 = M[RSP + 1 * MMU_BASE];
+	RA1 = M[RSP + 0 * MMU_BASE];
+	int len = 16384;
+	long long sum = 0;
+	int x,y;
+	for (int i = 0; i < len; i++)
+	{
+		RD0 = M[RA0++];
+		RD1 = M[RA1++];
+		x = *(short*)(&RD0.m_data);					//低16bit 
+		y = *(short*)(&RD1.m_data);					//低16bit 
+		x = x * y;
+		sum += x;
+	}
+	x = sum >> 32;
+	y = sum;
+	RD0 = y;
+	RD1 = x;
+
+	Return_AutoField(2 * MMU_BASE);
 
 }

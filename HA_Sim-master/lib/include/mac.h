@@ -44,6 +44,8 @@
 
 extern Sub_AutoField SingleSerSquare;
 
+extern Sub_AutoField MultiSum;
+
 extern Sub_AutoField MAC_MultiConst16;
 
 extern Sub_AutoField MultiConstH16L16;

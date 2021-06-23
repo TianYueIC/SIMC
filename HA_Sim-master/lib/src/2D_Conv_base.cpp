@@ -190,8 +190,8 @@ void C2D_Conv_base::Conv_5x5(int* data, int* key)
 	int s[25];
 
 	//此部分用于硬件验证工作，计算乘累加中间值
-	//FILE* f0 = fopen("SumOut.txt", "w");
-	//FILE* f1 = fopen("Out.txt", "w");
+	//FILE* f0 = fopen("sumout.txt", "w");
+	//FILE* f1 = fopen("out.txt", "w");
 
 	//int sum[44880];//乘累加中间值
 	//for (int u = 0; u < 11; u++)//每轮取16列，其中后4列下轮重复取，132列共取11轮

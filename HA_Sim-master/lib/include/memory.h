@@ -32,7 +32,7 @@
 #define BASERAM_SIZE_DWORD      (1 * 1024)
 #define GRAM_SIZE_DWORD         (4 * 1024)
 #define XRAM_SIZE_DWORD         (2 * 1024)
-#define CONV_SIZE_DWORD         (64 * 1024)
+#define NNRAM_SIZE_DWORD        (64 * 1024)  // 用于CNN的临时内存空间
 
 
 
@@ -45,7 +45,7 @@ public:
 
 
     // 将BASE_RAM GRAM XRAM 作为一整块连续地址的内存
-	static int pTotalRam[BASERAM_SIZE_DWORD + GRAM_SIZE_DWORD + XRAM_SIZE_DWORD + CONV_SIZE_DWORD];
+    static int pTotalRam[BASERAM_SIZE_DWORD + GRAM_SIZE_DWORD + XRAM_SIZE_DWORD + NNRAM_SIZE_DWORD];
 
     static void init();
     static void malloc_local(int len);                             // BASE_RAM中局部变量空间申请，每次申请RSP会减小len，相当于RSP-=len

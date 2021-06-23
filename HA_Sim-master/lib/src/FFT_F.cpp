@@ -5,6 +5,7 @@
 #include <stdio.h>
 
 #define _CRT_FUNCTIONS_REQUIRED
+#define LOWER_FFT_ACCURACY
 
 extern void fft(double pr[], double pi[], int n, double fr[], double fi[]);
 
@@ -345,6 +346,7 @@ void fft(double pr[], double pi[], int n, double fr[], double fi[])
         for (it = 0; it <= (m - 1) * nv; it = it + nv)
             for (j = 0; j <= (nv / 2) - 1; j++)
             {
+#ifdef LOWER_FFT_ACCURACY
                 p = pr[m * j] * fr[it + j + nv / 2];
                 int xx = p * 32768;//涉及xx的注释仅用作与硬件机制相同，但会降低精度，同matlab结果验证时注释掉xx
                 p = xx;//xx
@@ -364,6 +366,18 @@ void fft(double pr[], double pi[], int n, double fr[], double fi[])
                 fi[it + j + nv / 2] = fi[it + j] - poddi;
                 fr[it + j] = fr[it + j] + poddr;
                 fi[it + j] = fi[it + j] + poddi;
+#elif defined HIGHER_FFT_ACCURACY
+                p = pr[m * j] * fr[it + j + nv / 2];
+                q = pi[m * j] * fi[it + j + nv / 2];
+                s = pr[m * j] + pi[m * j];
+                s = s * (fr[it + j + nv / 2] + fi[it + j + nv / 2]);
+                poddr = p - q;
+                poddi = s - p - q;
+                fr[it + j + nv / 2] = fr[it + j] - poddr;
+                fi[it + j + nv / 2] = fi[it + j] - poddi;
+                fr[it + j] = fr[it + j] + poddr;
+                fi[it + j] = fi[it + j] + poddi;
+#endif
             }
         //fprintf(fo, "//第%d轮蝶形\r", 7-l0);
         //for (int qq = 0; qq < 128; qq++)
@@ -489,7 +503,7 @@ Sub_AutoField FFT_fix
 //  名称:
 //      IFFT_512
 //  功能:
-//      IFFT运算
+//      512点IFFT运算
 //  参数:
 //      1.RD0:输入序列指针，复数格式
 //      2.RD1:输出序列指针，复数格式(out)

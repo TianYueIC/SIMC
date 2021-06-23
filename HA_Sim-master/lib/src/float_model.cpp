@@ -664,7 +664,7 @@ Sub_AutoField Sqrt_Float_Seq
 	for (int i = 0; i < len; i++)
 	{
 		RD0 = GET_M(RA0 + i * MMU_BASE);
-		call_AutoField Recip_Float;
+		call_AutoField Sqrt_Float;
 		SET_M(RA1 + i * MMU_BASE, RD0);
 	}
 
@@ -1430,7 +1430,7 @@ Sub_AutoField AX_Sub_BY
 //  名称:
 //      CompareMin_Float_Dual
 //  功能:
-//      双序列大小比较，Ci = Min(Ai,Bi)
+//      双序列浮点数大小比较，Ci = Min(Ai,Bi)
 //  参数:
 //      1.RA0:A0,A1,A2,...,Ai;输出序列C（out）
 //      2.RA1:B0,B1,B2,...,Bi
@@ -1463,7 +1463,7 @@ Sub_AutoField CompareMin_Float_Dual
 //  名称:
 //      CompareMax_Float_Dual
 //  功能:
-//      双序列大小比较，Ci = Max(Ai,Bi)
+//      双序列浮点数大小比较，Ci = Max(Ai,Bi)
 //  参数:
 //      1.RA0:A0,A1,A2,...,Ai;输出序列C（out）
 //      2.RA1:B0,B1,B2,...,Bi
@@ -1484,6 +1484,75 @@ Sub_AutoField CompareMax_Float_Dual
 		float2double(RD0.m_data, X);
 		float2double(RD1.m_data, Y);
 		if (X < Y)
+			X = Y;
+		double2float(X);
+		M[RA0 + i * MMU_BASE] = RD0;
+	}
+
+	Return_AutoField(0);
+}
+
+
+////////////////////////////////////////////////////////
+//  名称:
+//       CompareMax_Float_Const
+//  功能:
+//      单序列浮点数与常数比较(最大值)
+//  参数:
+//		RA0:输入序列首地址
+//		RA1:输出序列首地址
+//		RD0:序列长度
+//		RD1:常数(浮点格式)
+//  备注:
+//      本系统浮点数为IEEE754格式的浮点数中的规约形式的32位浮点数，
+//		即非规约形式的浮点数和极值不在我系统表示范围内。（详见百度百科）
+////////////////////////////////////////////////////////
+Sub_AutoField CompareMax_Float_Const
+{
+	double X,Y;
+	int len = RD0.m_data;
+	float2double(RD1.m_data, Y);
+
+	for (int i = 0; i < len; i++)
+	{
+		RD0 = M[RA0 + i * MMU_BASE];
+
+		float2double(RD0.m_data, X);
+		if (X < Y)
+			X = Y;
+		double2float(X);
+		M[RA0 + i * MMU_BASE] = RD0;
+	}
+
+	Return_AutoField(0);
+}
+
+////////////////////////////////////////////////////////
+//  名称:
+//      CompareMin_Float_Const
+//  功能:
+//      单序列浮点数与常数比较(最小值)
+//  参数:
+//		RA0:输入序列首地址
+//		RA1:输出序列首地址
+//		RD0:序列长度
+//		RD1:常数(浮点格式)
+//  备注:
+//      本系统浮点数为IEEE754格式的浮点数中的规约形式的32位浮点数，
+//		即非规约形式的浮点数和极值不在我系统表示范围内。（详见百度百科）
+////////////////////////////////////////////////////////
+Sub_AutoField CompareMin_Float_Const
+{
+	double X,Y;
+	int len = RD0.m_data;
+	float2double(RD1.m_data, Y);
+
+	for (int i = 0; i < len; i++)
+	{
+		RD0 = M[RA0 + i * MMU_BASE];
+
+		float2double(RD0.m_data, X);
+		if (X > Y)
 			X = Y;
 		double2float(X);
 		M[RA0 + i * MMU_BASE] = RD0;

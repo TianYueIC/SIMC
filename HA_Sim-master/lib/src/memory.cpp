@@ -1,6 +1,6 @@
 #include "memory.h"
 
-int CMemBase::pTotalRam[BASERAM_SIZE_DWORD + GRAM_SIZE_DWORD + XRAM_SIZE_DWORD+CONV_SIZE_DWORD] = { 0 };
+int CMemBase::pTotalRam[BASERAM_SIZE_DWORD + GRAM_SIZE_DWORD + XRAM_SIZE_DWORD + NNRAM_SIZE_DWORD] = { 0 };
 //int CMemBase::pGRam[GRAM_SIZE_DWORD] = { 0 };
 //int CMemBase::pXRam[XRAM_SIZE_DWORD] = { 0 };
 

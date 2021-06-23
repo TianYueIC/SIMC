@@ -59,6 +59,9 @@ int main()
 			break;
 		}
 
+        //RD0 = RN_GRAM_IN;
+        //RA0 = RD0;
+        //RA1 = RD0;
 		RD0 = RN_GRAM_IN;
 		RA0 = RD0;
 		RD0 = RN_GRAM_IN2;
@@ -112,8 +115,6 @@ int main()
 		//		RD0 = M[RA0++];
 		//		c[i] = RD0.m_data;
 		//	}
-		//	n = 0;
-		//	RA2 = RN_GRAM2;
 		//	for (int i = 0; i < 64; i++)
 		//	{
 		//		fprintf(fo, "%d\r", c[i]);
