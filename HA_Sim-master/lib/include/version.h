@@ -22,9 +22,9 @@ class CVersion
 public:
     CVersion()
     {
-		setVersion(0, 9, 1);
-        setYMD(2021, 5, 7);
-        setPlatform("HA320F");
+		setVersion(0, 9, 2);
+        setYMD(2021, 6, 23);
+        setPlatform("HA350");
         showAll();
     }
     

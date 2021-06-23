@@ -22957,5 +22957,13 @@ void test_Conv()	//²âÊÔ¾í»ý
 		M[RA0++] = RD0;
 		RD0 += 32;
 	}
+	RD0 = RN_GRAM0;
+	send_para(RD0);
+	RD0 = RN_GRAM10;
+	send_para(RD0);
+	RD0 = 2048;
+	send_para(RD0);
+	call_AutoField Tanh;
+
 
 }
