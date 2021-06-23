@@ -1,0 +1,10 @@
+[Dd]ebug/
+[Rr]elease/
+x64/
+.vs/simulator/v16/ipch/
+*.opendb
+.vs/simulator/v16/.suo
+user/data/data_out.bin
+*.db
+*.bin
+user/data/data_out.bin
