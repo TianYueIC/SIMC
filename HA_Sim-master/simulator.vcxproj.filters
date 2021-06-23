@@ -93,20 +93,20 @@
     <ClInclude Include="lib\include\fir.h">
       <Filter>lib_include</Filter>
     </ClInclude>
-    <ClInclude Include="user\include\WDRC.h">
-      <Filter>lib_include</Filter>
-    </ClInclude>
     <ClInclude Include="lib\include\2D_Conv.h">
       <Filter>lib_include</Filter>
     </ClInclude>
     <ClInclude Include="lib\include\2D_Conv_base.h">
       <Filter>lib_include</Filter>
     </ClInclude>
-    <ClInclude Include="user\include\global.h">
-      <Filter>lib_include</Filter>
-    </ClInclude>
     <ClInclude Include="lib\include\inc_lib.h">
       <Filter>user_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\global.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\WDRC.h">
+      <Filter>lib_include</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -182,13 +182,13 @@
     <ClCompile Include="lib\src\fir_base.cpp">
       <Filter>lib_src</Filter>
     </ClCompile>
-    <ClCompile Include="user\src\WDRC_F.cpp">
-      <Filter>lib_src</Filter>
-    </ClCompile>
     <ClCompile Include="lib\src\2D_Conv.cpp">
       <Filter>lib_src</Filter>
     </ClCompile>
     <ClCompile Include="lib\src\2D_Conv_base.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\WDRC_F.cpp">
       <Filter>lib_src</Filter>
     </ClCompile>
   </ItemGroup>

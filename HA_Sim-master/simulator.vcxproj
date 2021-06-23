@@ -33,6 +33,7 @@
     <ClInclude Include="lib\include\fir_base.h" />
     <ClInclude Include="lib\include\float_model.h" />
     <ClInclude Include="lib\include\FMT_F.h" />
+    <ClInclude Include="lib\include\global.h" />
     <ClInclude Include="lib\include\iir.h" />
     <ClInclude Include="lib\include\iir_base.h" />
     <ClInclude Include="lib\include\inc_lib.h" />
@@ -45,9 +46,8 @@
     <ClInclude Include="lib\include\test.h" />
     <ClInclude Include="lib\include\type.h" />
     <ClInclude Include="lib\include\version.h" />
-    <ClInclude Include="user\include\global.h" />
+    <ClInclude Include="lib\include\WDRC.h" />
     <ClInclude Include="user\include\main.h" />
-    <ClInclude Include="user\include\WDRC.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lib\src\2D_Conv.cpp" />
@@ -75,8 +75,8 @@
     <ClCompile Include="lib\src\test.cpp" />
     <ClCompile Include="lib\src\TestHistory.cpp" />
     <ClCompile Include="lib\src\version.cpp" />
+    <ClCompile Include="lib\src\WDRC_F.cpp" />
     <ClCompile Include="user\src\main.cpp" />
-    <ClCompile Include="user\src\WDRC_F.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
