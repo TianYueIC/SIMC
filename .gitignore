@@ -8,3 +8,6 @@ user/data/data_out.bin
 *.db
 *.bin
 user/data/data_out.bin
+In0.txt
+In1.txt
+out.txt
