@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib_include">
+      <UniqueIdentifier>{4fd82ebe-8d24-4e51-9fb5-0e0e15fafdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_src">
+      <UniqueIdentifier>{0617328d-0d1a-48bb-a978-a0c2b0ebc00e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user_include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="user_src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\include\alu.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\CData_io.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\cpu.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\DMA_ALU.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\FMT_F.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\mac.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\memory.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\reg.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\type.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="user\include\main.h">
+      <Filter>user_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\test.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\version.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\Math_F.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\SOC_Common_F.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\ConstROM.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\fifo.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\FFT_F.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\STA_F.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\float_model.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\iir_base.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\iir.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\debug.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\fir_base.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\fir.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\2D_Conv.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\2D_Conv_base.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\inc_lib.h">
+      <Filter>user_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\global.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\WDRC.h">
+      <Filter>lib_include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\src\alu.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\CData_io.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\cpu.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\FMT_F.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\mac.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\memory.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\reg.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\TestHistory.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="user\src\main.cpp">
+      <Filter>user_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\test.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\version.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\Math_F.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\SOC_Common_F.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\Global_F.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\ConstROM.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\fifo.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\FFT_F.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\STA_F.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\float_model.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\iir_base.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\iir.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\debug.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\fir.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\fir_base.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\2D_Conv.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\2D_Conv_base.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\src\WDRC_F.cpp">
+      <Filter>lib_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>

@@ -1,2 +1,0 @@
-E:\work2020\HA_Sim\HA_Sim-master\Debug\simulator.exe
-E:\Git\HA_Sim-master\Debug\simulator.exe
