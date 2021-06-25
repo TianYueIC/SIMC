@@ -305,7 +305,7 @@ Sub_AutoField Softmax
 	RD0 = M[RSP + 0 * MMU_BASE];
 
 	int n = RD0.m_data;
-	double data[1024];
+	double data[10];
 	double c = 0;
 	double r = 0;
 
