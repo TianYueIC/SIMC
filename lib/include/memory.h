@@ -32,7 +32,7 @@
 #define BASERAM_SIZE_DWORD      (1 * 1024)
 #define GRAM_SIZE_DWORD         (4 * 1024)
 #define XRAM_SIZE_DWORD         (2 * 1024)
-#define NNRAM_SIZE_DWORD        (64 * 1024)  // 用于CNN的临时内存空间
+#define NNRAM_SIZE_DWORD        (256 * 1024)  // 用于CNN的临时内存空间
 
 
 

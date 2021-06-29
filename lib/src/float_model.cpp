@@ -152,9 +152,9 @@ Sub_AutoField float2fix_ser
 
 	for (int i = 0; i < len; i++)
 	{
-		RD0 = GET_M(RA0 + i * MMU_BASE);
+		RD0 = M[RA0 + i * MMU_BASE];
 		call_AutoField float2fix;
-		SET_M(RA1 + i * MMU_BASE, RD0);
+		M[RA1 + i * MMU_BASE] = RD0;
 	}
 
 
