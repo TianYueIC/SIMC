@@ -52,8 +52,8 @@ Sub_AutoField _Rf_ShiftR_Reg
 ////////////////////////////////////////////////////////////
 Sub_AutoField _Ru_Multi
 {
-	long long x = RD0.m_data;
-	x = x * RD1.m_data;
+	long long x = *(unsigned int*)(&RD0.m_data);
+	x = *(unsigned int*)(&RD1.m_data)*x;
 	RD0 = *(int*)(&x);					//ตอ32bit 
 	RD1 = x >> 32;
 

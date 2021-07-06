@@ -22966,4 +22966,10 @@ void test_Conv()	//²âÊÔ¾í»ý
 	call_AutoField Tanh;
 
 
+
+
+	RD0 = 0XFFFFFFFF;
+	RD1 = 0X1234;
+	call_AutoField _Ru_Multi;
+
 }

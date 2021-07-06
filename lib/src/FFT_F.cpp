@@ -346,27 +346,27 @@ void fft(double pr[], double pi[], int n, double fr[], double fi[])
         for (it = 0; it <= (m - 1) * nv; it = it + nv)
             for (j = 0; j <= (nv / 2) - 1; j++)
             {
-#ifdef LOWER_FFT_ACCURACY
+#ifdef LOWER_FFT_ACCURACY//低精度，更接近硬件精度，同matlab结果验证时使用HIGHER_FFT_ACCURACY
                 p = pr[m * j] * fr[it + j + nv / 2];
-                int xx = p * 32768;//涉及xx的注释仅用作与硬件机制相同，但会降低精度，同matlab结果验证时注释掉xx
-                p = xx;//xx
-                p = p / 32768;//xx
+                int xx = p * 32768;
+                p = xx;
+                p = p / 32768;
                 q = pi[m * j] * fi[it + j + nv / 2];
-                xx = q * 32768;//xx
-                q = xx;//xx
-                q = q / 32768;//xx
+                xx = q * 32768;
+                q = xx;
+                q = q / 32768;
                 s = pr[m * j] + pi[m * j];
                 s = s * (fr[it + j + nv / 2] + fi[it + j + nv / 2]);
-                xx = s * 32768;//xx
-                s = xx;//xx
-                s = s / 32768;//xx
+                xx = s * 32768;
+                s = xx;
+                s = s / 32768;
                 poddr = p - q;
                 poddi = s - p - q;
                 fr[it + j + nv / 2] = fr[it + j] - poddr;
                 fi[it + j + nv / 2] = fi[it + j] - poddi;
                 fr[it + j] = fr[it + j] + poddr;
                 fi[it + j] = fi[it + j] + poddi;
-#elif defined HIGHER_FFT_ACCURACY
+#elif defined HIGHER_FFT_ACCURACY//高精度
                 p = pr[m * j] * fr[it + j + nv / 2];
                 q = pi[m * j] * fi[it + j + nv / 2];
                 s = pr[m * j] + pi[m * j];

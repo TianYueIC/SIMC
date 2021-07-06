@@ -1,6 +1,7 @@
 #pragma once
 #include "reg.h"
 #include <iostream>
+#include "inc_lib.h"
 
 
 // 本类不属于硬件操作的一部分
