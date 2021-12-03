@@ -26,7 +26,7 @@ int main()
 	//test_conditional();
 	//test_float_model();
 	//txt2bin();
-	test_Conv();
+	//test_Conv();
 
 	// ===================用户代码区====================
 	// 算法核心流程(以时域衰减一半为例，可修改)
